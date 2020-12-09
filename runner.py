@@ -1,5 +1,6 @@
 from Streaming.Loading import DataLoadingManager
 from Streaming.Preprocessing import PreprocessingManager
+from Streaming.Extraction import DataExtractionManager
 
 # Load the configuration used for the pipeline
 config_file = DataLoadingManager.load_data("config.json")
@@ -22,15 +23,19 @@ COMPARISON_METRIC = config_file['baseline']['analysis']['comparison_metric']
 EVALUATION_METRICS = config_file['baseline']['evaluation']['metrics']
 
 # Load the data files (news headlines and stock price information)
-stock_prices = DataLoadingManager.load_data("~/Coding/Masters Project/Dataset/stock_prices_20201023.json")
-articles = DataLoadingManager.load_data("~/Coding/Masters Project/Dataset/articles_20201015_20201026.json")
+#stock_prices = DataLoadingManager.load_data("~/Coding/Masters Project/Dataset/
+stock_prices = DataLoadingManager.load_data("/home/salim/Coding/Masters Project/Dataset/one_company_stock_prices_sample.json")
+#articles = DataLoadingManager.load_data("~/Coding/Masters Project/Dataset/articles_20201015_20201026.json")
 
 # Preprocess the loaded data
 stock_prices = PreprocessingManager.preprocess_stock_prices(stock_prices, TRAIN_BOUNDARIES)
+print(stock_prices)
+# TODO : think of a way to use a different workflow if the stock_prices/articles have already been preprocessed
 # TODO : articles preprocessing
 
 # Extract the data from the data files (relevant days from stock prices, and titles from news headlines corresponding to those relevant days)
-
+stock_movement_dates = DataExtractionManager.extract_data(stock_prices,CAUSE_TIMEFRAME, 'DOWNWARD', 0.01)
+print(stock_movement_dates)
 
 # Create the model
 
