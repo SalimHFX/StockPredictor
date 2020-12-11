@@ -5,16 +5,19 @@
       "source": "All",
       "feed_filtering": "None",
       "cause_timeframe": "J-1",
+      "more_precise_cause_timeframe": "à définir : timeframe length",
       "effect_timeframe": "J+1",
       "train_boundaries": ["2020-05-01","2020-09-30"],
       "test_boundaries": ["2020-10-01","2020-10-25"]
     },
     "analysis": {
-      "type": "ES Significant-text",
-      "fields": "title",
-      "nb_words_per_day": "YET TO BE DETERMINED",
-      "aggregation_metric": "YET TO BE DETERMINED",
-      "comparison_metric": "Jaccard"
+      "type": {
+        "name": "ES Significant-text",
+        "fields": "title",
+        "nb_words_per_day": "YET TO BE DETERMINED",
+        "significant_text_aggregation_metric": "YET TO BE DETERMINED",
+        "comparison_metric": "Jaccard"
+      }
     },
     "evaluation": {
       "metrics": ["accuracy","precision","recall"]

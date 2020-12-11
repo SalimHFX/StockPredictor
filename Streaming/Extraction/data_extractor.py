@@ -43,25 +43,40 @@ class DataExtractor:
         # - Contre-fonctionnalités :
         #       - détecter le changement d'entreprise
 
+        # WARNING : Si cause_timeframe = J-1 le code assume que le stock_price en [i-1] date de J-1 si le stock_price en [i] date de J
+        # donc il gère pas les trous
+        # dit autrement il assume que les jours des stocks prices se suivent sans trou
 
-        # V0 : FAIRE TOUT POUR UNE SEULE ENTREPRISE ET POUR UN STOCK_MOVEMENT = DOWNWARD
+        # V2 : Gérer les trous :  ne pas assumer que les jours se suivent toujours, toujours commencer à i=1, faire des comparaisons de date
+        # en remontant l'index à partir de i-1
+        # (e.g avec J-2 voir si il y a bien 2 jours entre [î] et [i-1])
+        # s'il y a pile 2 jours c'est parfait
+        # s'il y a moins de 2 jours, remonter l'index
+        # s'il y a plus de 2 jours, prendre quand même cet index car on ne fera pas mieux (l'index étant trié par date) -> notifier qu'une comparaison a été faite
+        # avec un trou
+
+        # V1 : PLUSIEURS ENTREPRISES ET STOCK_MOVEMENT = DOWNWARD, assume que les indices sont quotidiens et se suivent sans trous
         stock_movement_dates = {}
-        # verify cause_timeframe validity (yet to be done)
-        # get the cursor index
-        timeframe_index = int(re.search(r'\d+', cause_timeframe).group()) # = 1
-        # place the cursor on the timeframe index
-        stock_prices_cursor = 0
-        for i in range(timeframe_index,len(stock_prices)):
-            current_day_price = float(stock_prices[i]['event']['close'])
-            comparison_day_price = float(stock_prices[i-timeframe_index]['event']['close'])
-            close_price_movement = self.percentage_decrease_change(comparison_day_price,current_day_price)
+        cause_timeframe = int(re.search(r'\d+', cause_timeframe).group())
+        print('Cause timeframe is ',cause_timeframe)
+        for i in range(cause_timeframe,len(stock_prices)):
+            current_company = stock_prices[i]['event']['symbol']
+            previous_company = stock_prices[i-cause_timeframe]['event']['symbol']
+            if(current_company == previous_company):
+                #Calculate the stock close price movement
+                current_day_price = float(stock_prices[i]['event']['close'])
+                comparison_day_price = float(stock_prices[i-cause_timeframe]['event']['close'])
+                close_price_movement = self.percentage_decrease_change(comparison_day_price,current_day_price)
+                print('Current company is {}, comparing current_day_price = {} to comparison_day_price = {}, close_price_movement is {}'.format(
+                    current_company,current_day_price,comparison_day_price,close_price_movement
+                ))
 
-            # close_price_movement < 0 <=> negative decrease <=> increase, since we're only tackling decrease in the baseline, this date won't be relative
-            if close_price_movement > 0 and close_price_movement > close_price_movement_threshold:
-                current_company = stock_prices[i]['event']['symbol']
-                if current_company not in stock_movement_dates:
-                    stock_movement_dates[current_company] = []
-                stock_movement_dates[current_company].append(stock_prices[i]['event']['time'])
+                #If it's over the threshold, store the date
+                # close_price_movement < 0 <=> negative decrease <=> increase, since we're only tackling decrease in the baseline, this date won't be relative
+                if close_price_movement > 0 and close_price_movement > close_price_movement_threshold:
+                    if current_company not in stock_movement_dates:
+                        stock_movement_dates[current_company] = []
+                    stock_movement_dates[current_company].append(stock_prices[i]['event']['time'])
 
         return stock_movement_dates
 
@@ -69,15 +84,6 @@ class DataExtractor:
     def percentage_decrease_change(self, original_number: float, new_number: float):
         return (original_number-new_number)/original_number
 
-    # Merge FOX/FOXA ?
-
     if __name__ == '__main__':
-        config_file = DataLoadingManager.load_data("/home/salim/Coding/Masters Project/StockPredictor/config.json")
-        print(config_file)
-        CAUSE_TIMEFRAME = config_file['baseline']['dataset']['cause_timeframe']
-        TRAIN_BOUNDARIES = config_file['baseline']['dataset']['train_boundaries']
-        stock_prices = DataLoadingManager.load_data("/home/salim/Coding/Masters Project/Dataset/one_company_stock_prices_sample.json")
-        stock_prices = PreprocessingManager.preprocess_stock_prices(stock_prices, TRAIN_BOUNDARIES)
-
-        stock_movement_dates = identify_relevant_days(stock_prices,CAUSE_TIMEFRAME, 'DOWNWARD', 0.01)
+        print('trace')
 
