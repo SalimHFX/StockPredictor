@@ -9,7 +9,7 @@ config_file = DataLoadingManager.load_data("config.json")
 CORPUS_PER_COMPANY_FILTERING = config_file['baseline']['dataset']['corpus_per_company_filtering']
 SOURCE = config_file['baseline']['dataset']['source']
 FEED_FILTERING = config_file['baseline']['dataset']['feed_filtering']
-CAUSE_TIMEFRAME = config_file['baseline']['dataset']['cause_timeframe']
+TRAIN_TIMEFRAME_WINDOW = config_file['baseline']['dataset']['train_timeframe_window']
 EFFECT_TIMEFRAME = config_file['baseline']['dataset']['effect_timeframe']
 TRAIN_BOUNDARIES = config_file['baseline']['dataset']['train_boundaries']
 TEST_BOUNDARIES = config_file['baseline']['dataset']['test_boundaries']
@@ -34,7 +34,7 @@ print(stock_prices)
 # TODO : articles preprocessing
 
 # Extract the data from the data files (relevant days from stock prices, and titles from news headlines corresponding to those relevant days)
-stock_movement_dates = DataExtractionManager.extract_data(stock_prices,'J-3', 'DOWNWARD', 0.01)
+stock_movement_dates = DataExtractionManager.extract_data(stock_prices,'J-30', 'DOWNWARD', 0.01)
 print(stock_movement_dates)
 
 # Create the model
