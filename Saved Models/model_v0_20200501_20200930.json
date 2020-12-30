@@ -1,0 +1,4244 @@
+{
+  "AAL": [
+    {
+      "significant_text": "update",
+      "score": 0.002833732939461742
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.00231846338872866
+    },
+    {
+      "significant_text": "why",
+      "score": 0.002115656875195871
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0011213329726388254
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0009906613441583632
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0008902045758929556
+    },
+    {
+      "significant_text": "kamala",
+      "score": 0.0008143317194122553
+    },
+    {
+      "significant_text": "barr",
+      "score": 0.0006057228408249695
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0005791913197514678
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0005599407065939025
+    }
+  ],
+  "AAPL": [
+    {
+      "significant_text": "reuters",
+      "score": 0.004564768675290559
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.0027675131481227685
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.002367447490190969
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.0023085904295511335
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.001735283319293448
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.001529212194775154
+    },
+    {
+      "significant_text": "kenosha",
+      "score": 0.0014254616748059148
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0013640903627477577
+    },
+    {
+      "significant_text": "laura",
+      "score": 0.0011291374960365303
+    },
+    {
+      "significant_text": "reuters.com",
+      "score": 0.0010957070584869373
+    }
+  ],
+  "ADBE": [
+    {
+      "significant_text": "fauci",
+      "score": 0.0025700469873044572
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0018494822876582982
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0017832409014313772
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0015133019153993489
+    },
+    {
+      "significant_text": "wisconsin",
+      "score": 0.0010246839040410991
+    },
+    {
+      "significant_text": "pfizer",
+      "score": 0.001016291832444344
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.0009691766433480638
+    },
+    {
+      "significant_text": "biontech",
+      "score": 0.0009604109669879231
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0009001678783326493
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.0007526244868544426
+    }
+  ],
+  "ADI": [
+    {
+      "significant_text": "update",
+      "score": 0.004854682883900507
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0028332459510905777
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.002708379956199136
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.002546800213425133
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.002499483077755926
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0017070403495001666
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0013689935922569034
+    },
+    {
+      "significant_text": "gohmert",
+      "score": 0.0012986046832895162
+    },
+    {
+      "significant_text": "burr",
+      "score": 0.0012112820133121074
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.00118999027105081
+    }
+  ],
+  "ADP": [
+    {
+      "significant_text": "why",
+      "score": 0.005356328531443937
+    },
+    {
+      "significant_text": "update",
+      "score": 0.005188679710784714
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.005081026199118929
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0016479144262533673
+    },
+    {
+      "significant_text": "barr",
+      "score": 0.0013173700427418311
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0012604648907476605
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0012020348893877412
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0011556482719361266
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.001140775965393295
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0010733184244105052
+    }
+  ],
+  "ADSK": [
+    {
+      "significant_text": "reuters",
+      "score": 0.009952215585329919
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.00268526623052184
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0022744210932217667
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.002188262556004805
+    },
+    {
+      "significant_text": "rnc",
+      "score": 0.0021408089643037646
+    },
+    {
+      "significant_text": "laura",
+      "score": 0.0017382977879641984
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.001617502885666932
+    },
+    {
+      "significant_text": "agents",
+      "score": 0.0015602568659631145
+    },
+    {
+      "significant_text": "blake",
+      "score": 0.0013638692113775886
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0013444426447634182
+    }
+  ],
+  "ALGN": [
+    {
+      "significant_text": "update",
+      "score": 0.005992102988760606
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002564874101547579
+    },
+    {
+      "significant_text": "why",
+      "score": 0.00255449731222279
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0015807299875746346
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.0013021247703624702
+    },
+    {
+      "significant_text": "democratic",
+      "score": 0.0009988852185948732
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0009657982860306649
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0009431870134518296
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0008725385220743201
+    },
+    {
+      "significant_text": "convention",
+      "score": 0.000804404694687246
+    }
+  ],
+  "ALXN": [
+    {
+      "significant_text": "stock",
+      "score": 0.0030524874636152204
+    },
+    {
+      "significant_text": "update",
+      "score": 0.003009813287606544
+    },
+    {
+      "significant_text": "why",
+      "score": 0.002674765562828639
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.001441046413045543
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.001419450685539454
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0011372568386353273
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0011263889289179277
+    },
+    {
+      "significant_text": "quarter",
+      "score": 0.0010130769779397259
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.0009899078594462515
+    },
+    {
+      "significant_text": "protests",
+      "score": 0.0009590145963821271
+    }
+  ],
+  "AMAT": [
+    {
+      "significant_text": "update",
+      "score": 0.0024360490200060576
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002368947605575194
+    },
+    {
+      "significant_text": "kamala",
+      "score": 0.002117557887191803
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0020227859115938824
+    },
+    {
+      "significant_text": "harris",
+      "score": 0.00167551561408713
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0014969198529173897
+    },
+    {
+      "significant_text": "michigan",
+      "score": 0.0014845846296381632
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0013041371916299425
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.001303766518761141
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.001184255268623349
+    }
+  ],
+  "AMD": [
+    {
+      "significant_text": "why",
+      "score": 0.002045839938789807
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.001992193745924944
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.001677005979234901
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.0015040429273926422
+    },
+    {
+      "significant_text": "trump\u2019s",
+      "score": 0.0013676859987446365
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0010509134379556172
+    },
+    {
+      "significant_text": "kenosha",
+      "score": 0.0009018497551026036
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.0008323587449369164
+    },
+    {
+      "significant_text": "bubba",
+      "score": 0.00078802172678274
+    },
+    {
+      "significant_text": "stiller",
+      "score": 0.0007575219081757509
+    }
+  ],
+  "AMGN": [
+    {
+      "significant_text": "stock",
+      "score": 0.006959574036669282
+    },
+    {
+      "significant_text": "why",
+      "score": 0.006216508265972007
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0037126527622858914
+    },
+    {
+      "significant_text": "protests",
+      "score": 0.002253365448555302
+    },
+    {
+      "significant_text": "barr",
+      "score": 0.0022209812766529374
+    },
+    {
+      "significant_text": "agents",
+      "score": 0.0021434850636034212
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0017701657837641428
+    },
+    {
+      "significant_text": "riots",
+      "score": 0.0015931309904023217
+    },
+    {
+      "significant_text": "today",
+      "score": 0.001573737185388156
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.001521978168416201
+    }
+  ],
+  "AMZN": [
+    {
+      "significant_text": "reuters",
+      "score": 0.01185201269520879
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.001607130248020385
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.0015462783204295155
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0014375794576356048
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.0011031290962458527
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0010174888170638974
+    },
+    {
+      "significant_text": "bank",
+      "score": 0.0008416898776439168
+    },
+    {
+      "significant_text": "acm",
+      "score": 0.0007743428651610905
+    },
+    {
+      "significant_text": "australians",
+      "score": 0.0007644567572219669
+    },
+    {
+      "significant_text": "michelle",
+      "score": 0.0007131425571323553
+    }
+  ],
+  "ASML": [
+    {
+      "significant_text": "federal",
+      "score": 0.0018849219200650156
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0018800573836304515
+    },
+    {
+      "significant_text": "agents",
+      "score": 0.0018009793141298739
+    },
+    {
+      "significant_text": "pfizer",
+      "score": 0.0013106796757752209
+    },
+    {
+      "significant_text": "consulate",
+      "score": 0.0011809600942624778
+    },
+    {
+      "significant_text": "lewis",
+      "score": 0.0011677272444339014
+    },
+    {
+      "significant_text": "debate",
+      "score": 0.0011203689559692274
+    },
+    {
+      "significant_text": "gop",
+      "score": 0.001112323116507849
+    },
+    {
+      "significant_text": "nominations",
+      "score": 0.001051657861127903
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0010497904537389458
+    }
+  ],
+  "AVGO": [
+    {
+      "significant_text": "update",
+      "score": 0.006602034580301931
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0038223247141739923
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0028653043750127057
+    },
+    {
+      "significant_text": "mylan",
+      "score": 0.0018641291562673588
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0017095188250355504
+    },
+    {
+      "significant_text": "consulate",
+      "score": 0.0016592925225195647
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0015787404626865884
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0014741189837772296
+    },
+    {
+      "significant_text": "electors",
+      "score": 0.001347701342662467
+    },
+    {
+      "significant_text": "burr",
+      "score": 0.0013341864756362613
+    }
+  ],
+  "BIDU": [
+    {
+      "significant_text": "stock",
+      "score": 0.0032275199761311155
+    },
+    {
+      "significant_text": "why",
+      "score": 0.00243286629760587
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0022455262052915397
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0017494614929375258
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0016718230275032991
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.001542185114532647
+    },
+    {
+      "significant_text": "harris",
+      "score": 0.001387312571168377
+    },
+    {
+      "significant_text": "kamala",
+      "score": 0.0013674563346328945
+    },
+    {
+      "significant_text": "agents",
+      "score": 0.0013502430454921514
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0012910494130417907
+    }
+  ],
+  "BIIB": [
+    {
+      "significant_text": "update",
+      "score": 0.003576497536478169
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0028767379837663985
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002735926467091047
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0025228130507650728
+    },
+    {
+      "significant_text": "today",
+      "score": 0.001384233363302241
+    },
+    {
+      "significant_text": "mlb",
+      "score": 0.0013140190834238844
+    },
+    {
+      "significant_text": "bill",
+      "score": 0.0012314374977603268
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0011943741865880436
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0011846500352245479
+    },
+    {
+      "significant_text": "barr",
+      "score": 0.0011643262778286477
+    }
+  ],
+  "BKNG": [
+    {
+      "significant_text": "update",
+      "score": 0.004800288028894796
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0023536579313492814
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0022159075515096236
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0015385805802753082
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0015033754744479548
+    },
+    {
+      "significant_text": "april",
+      "score": 0.001179241059886808
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0011597805137186928
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.0009757041822817442
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0009596027766521556
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.000930811401872474
+    }
+  ],
+  "BMRN": [
+    {
+      "significant_text": "update",
+      "score": 0.0038749457686633984
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003706782763906778
+    },
+    {
+      "significant_text": "why",
+      "score": 0.003237645561959041
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0022611622056281015
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0015828547407386855
+    },
+    {
+      "significant_text": "quarter",
+      "score": 0.0014893542444173488
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.0013115907313558134
+    },
+    {
+      "significant_text": "cristobal",
+      "score": 0.001119446050220296
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0010833408600543677
+    },
+    {
+      "significant_text": "jill",
+      "score": 0.0010355538716151319
+    }
+  ],
+  "CDNS": [
+    {
+      "significant_text": "hurricane",
+      "score": 0.003028937046479788
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0029636929842231058
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0019354397107611138
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0015202982144478553
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0014122093784541124
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0013497990339792687
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0013245890684597766
+    },
+    {
+      "significant_text": "australians",
+      "score": 0.0012466169158147566
+    },
+    {
+      "significant_text": "acm",
+      "score": 0.001238409361686297
+    },
+    {
+      "significant_text": "category",
+      "score": 0.0011391083695096098
+    }
+  ],
+  "CERN": [
+    {
+      "significant_text": "dnc",
+      "score": 0.0029126063022359497
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002572987102824452
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0025450967385294075
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0025213033191679958
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0021642640506904895
+    },
+    {
+      "significant_text": "democratic",
+      "score": 0.0018934682168224703
+    },
+    {
+      "significant_text": "gohmert",
+      "score": 0.0015272016411550496
+    },
+    {
+      "significant_text": "jill",
+      "score": 0.0013824487363323448
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0013441256260605823
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0013020435119384696
+    }
+  ],
+  "CHKP": [
+    {
+      "significant_text": "laura",
+      "score": 0.003562140989610247
+    },
+    {
+      "significant_text": "rnc",
+      "score": 0.003186400187086747
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.0026258195377810334
+    },
+    {
+      "significant_text": "jacob",
+      "score": 0.0023673413886342322
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0022138041416939164
+    },
+    {
+      "significant_text": "jerry",
+      "score": 0.001984940819941538
+    },
+    {
+      "significant_text": "blake",
+      "score": 0.0019721582654170238
+    },
+    {
+      "significant_text": "kenosha",
+      "score": 0.001904084373223666
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0018552664370024838
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0018276420584311885
+    }
+  ],
+  "CHTR": [
+    {
+      "significant_text": "floyd",
+      "score": 0.007429611843125025
+    },
+    {
+      "significant_text": "update",
+      "score": 0.007361505299722923
+    },
+    {
+      "significant_text": "george",
+      "score": 0.00662290660000237
+    },
+    {
+      "significant_text": "why",
+      "score": 0.006238000297763225
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.006095177277829094
+    },
+    {
+      "significant_text": "cristobal",
+      "score": 0.004384779222713836
+    },
+    {
+      "significant_text": "mattis",
+      "score": 0.0036653643600474675
+    },
+    {
+      "significant_text": "floyd's",
+      "score": 0.0035932234666741667
+    },
+    {
+      "significant_text": "tiananmen",
+      "score": 0.002884587948003112
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0027867855671813023
+    }
+  ],
+  "CMCSA": [
+    {
+      "significant_text": "why",
+      "score": 0.004792688677703898
+    },
+    {
+      "significant_text": "update",
+      "score": 0.004691988761120898
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003925157746690359
+    },
+    {
+      "significant_text": "isaias",
+      "score": 0.0028561909343964003
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0027374412737393113
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0022351524520727254
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.0022012201148487545
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0020030838585610527
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0017754279600387664
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0016247481853116873
+    }
+  ],
+  "COST": [
+    {
+      "significant_text": "q1",
+      "score": 0.0034142295400992804
+    },
+    {
+      "significant_text": "breonna",
+      "score": 0.003314372072385781
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0032331154824464725
+    },
+    {
+      "significant_text": "taylor",
+      "score": 0.0029323401429979744
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0027986062021402936
+    },
+    {
+      "significant_text": "salvageable",
+      "score": 0.002719445541566521
+    },
+    {
+      "significant_text": "avaya",
+      "score": 0.002719445541566521
+    },
+    {
+      "significant_text": "florian",
+      "score": 0.0026328392106437296
+    },
+    {
+      "significant_text": "khmer",
+      "score": 0.0026328392106437296
+    },
+    {
+      "significant_text": "kraftwerk",
+      "score": 0.0026328392106437296
+    }
+  ],
+  "CSCO": [
+    {
+      "significant_text": "fauci",
+      "score": 0.002686652182375301
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.001605358257991147
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0015778468321419174
+    },
+    {
+      "significant_text": "nkurunziza",
+      "score": 0.001347301081817545
+    },
+    {
+      "significant_text": "kamala",
+      "score": 0.0011860209494029413
+    },
+    {
+      "significant_text": "reiner",
+      "score": 0.001132424511603613
+    },
+    {
+      "significant_text": "postmates",
+      "score": 0.0010789249034145465
+    },
+    {
+      "significant_text": "electors",
+      "score": 0.0010689917676167916
+    },
+    {
+      "significant_text": "harris",
+      "score": 0.0010548360119649858
+    },
+    {
+      "significant_text": "taylor",
+      "score": 0.0010414877359816164
+    }
+  ],
+  "CSX": [
+    {
+      "significant_text": "update",
+      "score": 0.0036138242317345
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003438027510690337
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0020836358096922828
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0019370890085747999
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0016678591665338616
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.001647640002287962
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0016026536334990307
+    },
+    {
+      "significant_text": "whistleblower",
+      "score": 0.0015262184641603247
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0014916511501738817
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0013045490507683547
+    }
+  ],
+  "CTAS": [
+    {
+      "significant_text": "stock",
+      "score": 0.003851711343846078
+    },
+    {
+      "significant_text": "why",
+      "score": 0.003818876234941136
+    },
+    {
+      "significant_text": "update",
+      "score": 0.002710092666322595
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0023972756307533358
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0023289071198073397
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.002230883730110291
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0018180188266304085
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0017977776862878893
+    },
+    {
+      "significant_text": "nkurunziza",
+      "score": 0.001337977618733303
+    },
+    {
+      "significant_text": "electors",
+      "score": 0.0012437743687143854
+    }
+  ],
+  "CTRP": [
+    {
+      "significant_text": "update",
+      "score": 0.00317664055724261
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0026452879568938667
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0024652844309624553
+    },
+    {
+      "significant_text": "why",
+      "score": 0.002366857272694795
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0021142811048335125
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0014179636646938069
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0011470785884399352
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0010343040365791733
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0010333182429942483
+    },
+    {
+      "significant_text": "brooks",
+      "score": 0.0009803682735137805
+    }
+  ],
+  "CTSH": [
+    {
+      "significant_text": "update",
+      "score": 0.018348354198525763
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.003169185521508535
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0031170439640421797
+    },
+    {
+      "significant_text": "reopen",
+      "score": 0.002929517985369396
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0020368208690969393
+    },
+    {
+      "significant_text": "1",
+      "score": 0.0020222615955812592
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0016008661675096173
+    },
+    {
+      "significant_text": "april",
+      "score": 0.001536239552504875
+    },
+    {
+      "significant_text": "michigan",
+      "score": 0.0014145950285606524
+    },
+    {
+      "significant_text": "ahmaud",
+      "score": 0.0013489308867083018
+    }
+  ],
+  "CTXS": [
+    {
+      "significant_text": "protests",
+      "score": 0.004428688951061003
+    },
+    {
+      "significant_text": "riots",
+      "score": 0.00222147504881866
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002066271040490268
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0017348006479851498
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.0016929260903172036
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.0016200762202012663
+    },
+    {
+      "significant_text": "unrest",
+      "score": 0.0014752162419335807
+    },
+    {
+      "significant_text": "george",
+      "score": 0.0013779726682091585
+    },
+    {
+      "significant_text": "chicago",
+      "score": 0.0013355737280339988
+    },
+    {
+      "significant_text": "monday",
+      "score": 0.0013213826315425486
+    }
+  ],
+  "DLTR": [
+    {
+      "significant_text": "update",
+      "score": 0.00662799389184624
+    },
+    {
+      "significant_text": "why",
+      "score": 0.003238545847718698
+    },
+    {
+      "significant_text": "protests",
+      "score": 0.0029361974464305954
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.002751691740165125
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0026132708927349177
+    },
+    {
+      "significant_text": "laura",
+      "score": 0.002480669986738759
+    },
+    {
+      "significant_text": "george",
+      "score": 0.0022131189692624733
+    },
+    {
+      "significant_text": "rnc",
+      "score": 0.002181484264667604
+    },
+    {
+      "significant_text": "kenosha",
+      "score": 0.0018514767461642705
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0018172677350804768
+    }
+  ],
+  "EA": [
+    {
+      "significant_text": "hurricane",
+      "score": 0.002040898955461751
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0020384829246511416
+    },
+    {
+      "significant_text": "pfizer",
+      "score": 0.0020072088207218133
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0019454716089716783
+    },
+    {
+      "significant_text": "biden",
+      "score": 0.0015334629979535863
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0012253876030722032
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0011613276495867344
+    },
+    {
+      "significant_text": "trump\u2019s",
+      "score": 0.0010835908640249802
+    },
+    {
+      "significant_text": "broncos",
+      "score": 0.0010604862028270304
+    },
+    {
+      "significant_text": "category",
+      "score": 0.0010134944926344085
+    }
+  ],
+  "EBAY": [
+    {
+      "significant_text": "laura",
+      "score": 0.007407493145618926
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.005502685839187547
+    },
+    {
+      "significant_text": "rnc",
+      "score": 0.004739362740106452
+    },
+    {
+      "significant_text": "kenosha",
+      "score": 0.0037618555859878205
+    },
+    {
+      "significant_text": "debate",
+      "score": 0.002736036233773464
+    },
+    {
+      "significant_text": "blake",
+      "score": 0.002408411468651739
+    },
+    {
+      "significant_text": "reuters",
+      "score": 0.002204474987692205
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0021914554325078634
+    },
+    {
+      "significant_text": "jacob",
+      "score": 0.0021441429476691653
+    },
+    {
+      "significant_text": "biden",
+      "score": 0.0017375945808522355
+    }
+  ],
+  "EXPE": [
+    {
+      "significant_text": "update",
+      "score": 0.003656412933115404
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0029016805568360614
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0028888347645496
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0013834951481328875
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0011235145157710816
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0009294009894785644
+    },
+    {
+      "significant_text": "therapeutics",
+      "score": 0.0008632337870687536
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0008180402038228713
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0007569410609064308
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0006956455398820883
+    }
+  ],
+  "FAST": [
+    {
+      "significant_text": "why",
+      "score": 0.004611501034267295
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003295979916243614
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.003228738846404708
+    },
+    {
+      "significant_text": "update",
+      "score": 0.002878880393853974
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0022567352109421116
+    },
+    {
+      "significant_text": "grubhub",
+      "score": 0.00219025200847864
+    },
+    {
+      "significant_text": "statues",
+      "score": 0.0020953674150619725
+    },
+    {
+      "significant_text": "today",
+      "score": 0.0017589296430214941
+    },
+    {
+      "significant_text": "coachella",
+      "score": 0.0016481502940757528
+    },
+    {
+      "significant_text": "stiller",
+      "score": 0.0015518452314161636
+    }
+  ],
+  "FB": [
+    {
+      "significant_text": "wednesday",
+      "score": 0.002987540214735291
+    },
+    {
+      "significant_text": "why",
+      "score": 0.002912090621056099
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0027994093004468307
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0022439364696184407
+    },
+    {
+      "significant_text": "update",
+      "score": 0.002043585622710308
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.0013405855168849255
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.0012300464926419648
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.001186326352161968
+    },
+    {
+      "significant_text": "pfizer",
+      "score": 0.0011810412526027008
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0011002472954148531
+    }
+  ],
+  "FISV": [
+    {
+      "significant_text": "why",
+      "score": 0.002686438330743813
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.0025254526908882547
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002149727781064715
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0020766784273547243
+    },
+    {
+      "significant_text": "democratic",
+      "score": 0.0015893614325555585
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0014429878661551838
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0010992800251382858
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0010592358238851176
+    },
+    {
+      "significant_text": "jill",
+      "score": 0.0009833188506603704
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0009749196150407862
+    }
+  ],
+  "FOX": [
+    {
+      "significant_text": "why",
+      "score": 0.00580504048267118
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.004373697654483856
+    },
+    {
+      "significant_text": "update",
+      "score": 0.00291344742145382
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0022001891493598036
+    },
+    {
+      "significant_text": "loans",
+      "score": 0.0014851449004776628
+    },
+    {
+      "significant_text": "june",
+      "score": 0.0014228597831652985
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0013535225907622727
+    },
+    {
+      "significant_text": "brooks",
+      "score": 0.0013163072583046082
+    },
+    {
+      "significant_text": "rayshard",
+      "score": 0.0012852786630376339
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0012636672394182064
+    }
+  ],
+  "FOXA": [
+    {
+      "significant_text": "why",
+      "score": 0.006008527305536887
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.004466064412996761
+    },
+    {
+      "significant_text": "update",
+      "score": 0.00226446579747566
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0020427387997271574
+    },
+    {
+      "significant_text": "june",
+      "score": 0.0013275069007515235
+    },
+    {
+      "significant_text": "loans",
+      "score": 0.001309527871191581
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.001279932197004746
+    },
+    {
+      "significant_text": "brooks",
+      "score": 0.00121034418010375
+    },
+    {
+      "significant_text": "rayshard",
+      "score": 0.0012059981523913977
+    },
+    {
+      "significant_text": "confederate",
+      "score": 0.0012057997263208407
+    }
+  ],
+  "GILD": [
+    {
+      "significant_text": "update",
+      "score": 0.005744498638953035
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002984278743447576
+    },
+    {
+      "significant_text": "why",
+      "score": 0.002246072759451394
+    },
+    {
+      "significant_text": "isaias",
+      "score": 0.0017030064721507512
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0014082068107474576
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0013557978148999925
+    },
+    {
+      "significant_text": "april",
+      "score": 0.00123151439354156
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0011491435434470068
+    },
+    {
+      "significant_text": "pulitzer",
+      "score": 0.0009126714521485058
+    },
+    {
+      "significant_text": "carolinas",
+      "score": 0.0008815362403062377
+    }
+  ],
+  "GOOG": [
+    {
+      "significant_text": "sally",
+      "score": 0.002703985950431174
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.002387785639258465
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0022467380207727727
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0018959073961243612
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0011865280574008155
+    },
+    {
+      "significant_text": "category",
+      "score": 0.0011148350707191152
+    },
+    {
+      "significant_text": "acm",
+      "score": 0.0011054297643268397
+    },
+    {
+      "significant_text": "trump\u2019s",
+      "score": 0.0009975152892189225
+    },
+    {
+      "significant_text": "wisconsin",
+      "score": 0.0009482268685722193
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.0009229147074856595
+    }
+  ],
+  "GOOGL": [
+    {
+      "significant_text": "sally",
+      "score": 0.0031073593949635615
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.002317400306723216
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0017850983877720176
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.001467682913634491
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0012585523419292239
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.0010438887588049743
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0010425756143464398
+    },
+    {
+      "significant_text": "october",
+      "score": 0.0010267914921461225
+    },
+    {
+      "significant_text": "inditex",
+      "score": 0.0009975786319177964
+    },
+    {
+      "significant_text": "cramer",
+      "score": 0.0009975786319177964
+    }
+  ],
+  "HAS": [
+    {
+      "significant_text": "update",
+      "score": 0.011412437894768134
+    },
+    {
+      "significant_text": "why",
+      "score": 0.005521711157676343
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.004384308796694667
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0031713702266688974
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.002447669488315984
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0021360484822690964
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0020486221955327254
+    },
+    {
+      "significant_text": "rayshard",
+      "score": 0.0018098692676631618
+    },
+    {
+      "significant_text": "1",
+      "score": 0.001799426540217408
+    },
+    {
+      "significant_text": "brooks",
+      "score": 0.0017825423381093615
+    }
+  ],
+  "HSIC": [
+    {
+      "significant_text": "why",
+      "score": 0.0038206723627406806
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0027663466163357167
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0026656283444062654
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0016554870871008385
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.001439345469124056
+    },
+    {
+      "significant_text": "isaias",
+      "score": 0.0010998971943858961
+    },
+    {
+      "significant_text": "carolinas",
+      "score": 0.000987669913172995
+    },
+    {
+      "significant_text": "shares",
+      "score": 0.0009021434527215793
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.000885629580094066
+    },
+    {
+      "significant_text": "loans",
+      "score": 0.0008265324721447296
+    }
+  ],
+  "IDXX": [
+    {
+      "significant_text": "update",
+      "score": 0.003609731177335117
+    },
+    {
+      "significant_text": "why",
+      "score": 0.002921279360305038
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002490660385435426
+    },
+    {
+      "significant_text": "beirut",
+      "score": 0.0023778124568495447
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0018259649787439889
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0015127720214691569
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.001201215167543947
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.0011368619018012613
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.001062558967242176
+    },
+    {
+      "significant_text": "inditex",
+      "score": 0.0010432815961438685
+    }
+  ],
+  "ILMN": [
+    {
+      "significant_text": "stock",
+      "score": 0.0037350011800304397
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0028584169192339506
+    },
+    {
+      "significant_text": "thursday",
+      "score": 0.001421187476661235
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0012895379803207197
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.0011232075246915374
+    },
+    {
+      "significant_text": "popped",
+      "score": 0.000992353891938623
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0009234440263119841
+    },
+    {
+      "significant_text": "tiananmen",
+      "score": 0.000913782629111482
+    },
+    {
+      "significant_text": "sales",
+      "score": 0.0008933245112247785
+    },
+    {
+      "significant_text": "george",
+      "score": 0.0008453437763696073
+    }
+  ],
+  "INCY": [
+    {
+      "significant_text": "stock",
+      "score": 0.0016654810933570679
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0014486256103980392
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0011169109882893469
+    },
+    {
+      "significant_text": "barr",
+      "score": 0.0006974143249656176
+    },
+    {
+      "significant_text": "isaias",
+      "score": 0.0006920482013349383
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0006772819275067616
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0006661513946334004
+    },
+    {
+      "significant_text": "trump\u2019s",
+      "score": 0.0006359556063649973
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0006036020265046725
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0005706294088729286
+    }
+  ],
+  "INTC": [
+    {
+      "significant_text": "stock",
+      "score": 0.005521743395233292
+    },
+    {
+      "significant_text": "why",
+      "score": 0.003556630945058202
+    },
+    {
+      "significant_text": "update",
+      "score": 0.002869311795286688
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.00259470564739779
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0019812332187829056
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.001817964326883733
+    },
+    {
+      "significant_text": "aid",
+      "score": 0.0014286537117139794
+    },
+    {
+      "significant_text": "july",
+      "score": 0.001374519407630791
+    },
+    {
+      "significant_text": "revenue",
+      "score": 0.0012924261813521832
+    },
+    {
+      "significant_text": "mylan",
+      "score": 0.0012632100986852905
+    }
+  ],
+  "INTU": [
+    {
+      "significant_text": "sally",
+      "score": 0.002917480701025435
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.002900218183251976
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.002844682567607498
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0024102512721656316
+    },
+    {
+      "significant_text": "reuters.com",
+      "score": 0.0015097971140234682
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0014927624561769284
+    },
+    {
+      "significant_text": "pensacola",
+      "score": 0.0012615183280065942
+    },
+    {
+      "significant_text": "barr",
+      "score": 0.001115103507558105
+    },
+    {
+      "significant_text": "titans",
+      "score": 0.0010864974173168973
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.00105248604706621
+    }
+  ],
+  "ISRG": [
+    {
+      "significant_text": "why",
+      "score": 0.005593055852552921
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0038265164185035568
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0029638769367587975
+    },
+    {
+      "significant_text": "update",
+      "score": 0.002692001817850021
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0022819147051244644
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0017391831555258095
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.001712011045638847
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0016396743126289865
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.0014476961875058655
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0012462270801180551
+    }
+  ],
+  "JBHT": [
+    {
+      "significant_text": "debate",
+      "score": 0.0027465461147164355
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0024676251837422803
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.001479045574010586
+    },
+    {
+      "significant_text": "reuters.com",
+      "score": 0.0014769948216152805
+    },
+    {
+      "significant_text": "biden",
+      "score": 0.001383722606613103
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0013249044683326966
+    },
+    {
+      "significant_text": "titans",
+      "score": 0.0012094321537220113
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.00106123506242337
+    },
+    {
+      "significant_text": "trump\u2019s",
+      "score": 0.0010397773603150718
+    },
+    {
+      "significant_text": "democrats",
+      "score": 0.0010384849330268076
+    }
+  ],
+  "JD": [
+    {
+      "significant_text": "stock",
+      "score": 0.0023980965487169124
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0016944999313815374
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0015900810761182568
+    },
+    {
+      "significant_text": "michigan",
+      "score": 0.0015032189559974426
+    },
+    {
+      "significant_text": "update",
+      "score": 0.001342262887237937
+    },
+    {
+      "significant_text": "thursday",
+      "score": 0.0013211791100119644
+    },
+    {
+      "significant_text": "bolton",
+      "score": 0.0011647087193356212
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0010345709035097317
+    },
+    {
+      "significant_text": "eu",
+      "score": 0.0010086157554616277
+    },
+    {
+      "significant_text": "pompeo",
+      "score": 0.0009690056864806227
+    }
+  ],
+  "KHC": [
+    {
+      "significant_text": "fed",
+      "score": 0.005091482623542041
+    },
+    {
+      "significant_text": "update",
+      "score": 0.003768173487294667
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0023822180738559094
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0018003604803525101
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0018002781124648764
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0017350315985315494
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0012100867587647765
+    },
+    {
+      "significant_text": "wisconsin",
+      "score": 0.0011897029228804857
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0011761524050367623
+    },
+    {
+      "significant_text": "emmys",
+      "score": 0.0010905596570437526
+    }
+  ],
+  "KLAC": [
+    {
+      "significant_text": "convention",
+      "score": 0.003907578419939744
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.002611535095078414
+    },
+    {
+      "significant_text": "democratic",
+      "score": 0.0023582145238461812
+    },
+    {
+      "significant_text": "wisconsin",
+      "score": 0.0015554604740482772
+    },
+    {
+      "significant_text": "loomer",
+      "score": 0.0013633492702479003
+    },
+    {
+      "significant_text": "hbo",
+      "score": 0.001324368764813353
+    },
+    {
+      "significant_text": "democrats",
+      "score": 0.0011430351984202996
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0011419734425505111
+    },
+    {
+      "significant_text": "burr",
+      "score": 0.0011271713365528396
+    },
+    {
+      "significant_text": "unsurvivable",
+      "score": 0.0011244575951811294
+    }
+  ],
+  "LBTYA": [
+    {
+      "significant_text": "stock",
+      "score": 0.003345077501680614
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0024352577169673506
+    },
+    {
+      "significant_text": "update",
+      "score": 0.002402283686475562
+    },
+    {
+      "significant_text": "isaias",
+      "score": 0.001162667619392378
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0010664634947620344
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.001007569685327732
+    },
+    {
+      "significant_text": "bubba",
+      "score": 0.000921278560967146
+    },
+    {
+      "significant_text": "noose",
+      "score": 0.000921278560967146
+    },
+    {
+      "significant_text": "michelle",
+      "score": 0.0009110828564614739
+    },
+    {
+      "significant_text": "bolton",
+      "score": 0.000896798289455485
+    }
+  ],
+  "LBTYK": [
+    {
+      "significant_text": "update",
+      "score": 0.0031799733788068643
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002659139904610407
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0016667194676398924
+    },
+    {
+      "significant_text": "isaias",
+      "score": 0.0010997892250016843
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0009997076354841656
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0009291075332074922
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.00084332880971356
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0008179637715235989
+    },
+    {
+      "significant_text": "quarter",
+      "score": 0.0007693364744998599
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0007635670113651161
+    }
+  ],
+  "LRCX": [
+    {
+      "significant_text": "kamala",
+      "score": 0.0019137992999019669
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0017901650575295525
+    },
+    {
+      "significant_text": "convention",
+      "score": 0.0017399779584374433
+    },
+    {
+      "significant_text": "beirut",
+      "score": 0.0017265092342083138
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0016203481771685077
+    },
+    {
+      "significant_text": "democratic",
+      "score": 0.0015062200708138
+    },
+    {
+      "significant_text": "biden",
+      "score": 0.0014624247542254353
+    },
+    {
+      "significant_text": "harris",
+      "score": 0.0013746697564884511
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.001159133820946731
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0010295152538522567
+    }
+  ],
+  "LULU": [
+    {
+      "significant_text": "why",
+      "score": 0.0019930481403554376
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0016119977550078759
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.001462917363496191
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0013288273127774358
+    },
+    {
+      "significant_text": "bolton",
+      "score": 0.001221296655571592
+    },
+    {
+      "significant_text": "confederate",
+      "score": 0.0011862884222437534
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0011330562919718685
+    },
+    {
+      "significant_text": "noose",
+      "score": 0.001104716186983338
+    },
+    {
+      "significant_text": "statues",
+      "score": 0.001054442959634499
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.000935467992669839
+    }
+  ],
+  "MAR": [
+    {
+      "significant_text": "update",
+      "score": 0.002232919174299457
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0019232626496908383
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0018325558499550118
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0009247308420450029
+    },
+    {
+      "significant_text": "bill",
+      "score": 0.0008594418642221281
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0008311840936182018
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0007272099140704422
+    },
+    {
+      "significant_text": "credit",
+      "score": 0.0006371567172394849
+    },
+    {
+      "significant_text": "reform",
+      "score": 0.0005740525962808565
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0005506882752897474
+    }
+  ],
+  "MCHP": [
+    {
+      "significant_text": "stock",
+      "score": 0.00288247873722846
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0025863604265736503
+    },
+    {
+      "significant_text": "update",
+      "score": 0.002432402880922187
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0021491013560142693
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0012463674758841747
+    },
+    {
+      "significant_text": "primary",
+      "score": 0.001159455172102089
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.00105741325538102
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0010280555549885015
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0009487100264699923
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0009022377929112079
+    }
+  ],
+  "MDLZ": [
+    {
+      "significant_text": "fed",
+      "score": 0.00706297841001478
+    },
+    {
+      "significant_text": "why",
+      "score": 0.005759745870961475
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.004389387628244941
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0037799954800331707
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.003524416879747429
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0033410015947505306
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.002775991579851231
+    },
+    {
+      "significant_text": "floyd's",
+      "score": 0.0027526126229341433
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0027288033775111197
+    },
+    {
+      "significant_text": "cristobal",
+      "score": 0.0026425801835229207
+    }
+  ],
+  "MELI": [
+    {
+      "significant_text": "laura",
+      "score": 0.004771294596145293
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.004383570005902671
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0029190239752205755
+    },
+    {
+      "significant_text": "rnc",
+      "score": 0.002909997421358381
+    },
+    {
+      "significant_text": "kenosha",
+      "score": 0.0026800095557430875
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0019044376518047173
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0016290829254890903
+    },
+    {
+      "significant_text": "blake",
+      "score": 0.0015325834980349767
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0013177349967336634
+    },
+    {
+      "significant_text": "category",
+      "score": 0.0012850206355921275
+    }
+  ],
+  "MNST": [
+    {
+      "significant_text": "sally",
+      "score": 0.0053183218107359445
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0040469150062027335
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0032422249345063605
+    },
+    {
+      "significant_text": "reuters.com",
+      "score": 0.0020878103256252284
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.0018074690315819577
+    },
+    {
+      "significant_text": "cramer",
+      "score": 0.0016806663657854377
+    },
+    {
+      "significant_text": "acms",
+      "score": 0.0016595325881526843
+    },
+    {
+      "significant_text": "jaimi",
+      "score": 0.0016568466122834616
+    },
+    {
+      "significant_text": "acm",
+      "score": 0.0015779796317971443
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.00137968925623116
+    }
+  ],
+  "MSFT": [
+    {
+      "significant_text": "stock",
+      "score": 0.0027830310107887523
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0026070568519699117
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0019026423037823113
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0018912968026649774
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0011690416378547074
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.000938259346859646
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.00091272972621006
+    },
+    {
+      "significant_text": "trump\u2019s",
+      "score": 0.0008832894011256242
+    },
+    {
+      "significant_text": "electors",
+      "score": 0.0007830305683426208
+    },
+    {
+      "significant_text": "mylan",
+      "score": 0.0007823770347671902
+    }
+  ],
+  "MU": [
+    {
+      "significant_text": "why",
+      "score": 0.003900366442698863
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0035826392175473225
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003350943933033137
+    },
+    {
+      "significant_text": "kamala",
+      "score": 0.002316603006140968
+    },
+    {
+      "significant_text": "harris",
+      "score": 0.002177421144299422
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.00182908478463354
+    },
+    {
+      "significant_text": "quarter",
+      "score": 0.0011309028613427188
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0010875572239675438
+    },
+    {
+      "significant_text": "today",
+      "score": 0.001061518205768337
+    },
+    {
+      "significant_text": "noose",
+      "score": 0.001016726906427634
+    }
+  ],
+  "MXIM": [
+    {
+      "significant_text": "update",
+      "score": 0.004642116110641127
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0029882606973551827
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0025433980033783767
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0023884540024531977
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0023535065193584625
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.002295716119889856
+    },
+    {
+      "significant_text": "gohmert",
+      "score": 0.001636351059326996
+    },
+    {
+      "significant_text": "funeral",
+      "score": 0.0015528887776297975
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0013231747699461159
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0012443901478171445
+    }
+  ],
+  "MYL": [
+    {
+      "significant_text": "stock",
+      "score": 0.0026310666497746547
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0024808043492582886
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0022853230672523444
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0011558693282091963
+    },
+    {
+      "significant_text": "electors",
+      "score": 0.0010243690008670146
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0010198759827926803
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0009780219514030789
+    },
+    {
+      "significant_text": "michigan",
+      "score": 0.000759636189236433
+    },
+    {
+      "significant_text": "senate",
+      "score": 0.000681554887017835
+    },
+    {
+      "significant_text": "faithless",
+      "score": 0.0006802438998959684
+    }
+  ],
+  "NFLX": [
+    {
+      "significant_text": "why",
+      "score": 0.0019803344636285763
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0018943015334849493
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0017092693933937512
+    },
+    {
+      "significant_text": "michigan",
+      "score": 0.0010178370925830742
+    },
+    {
+      "significant_text": "australians",
+      "score": 0.000906625186749912
+    },
+    {
+      "significant_text": "cyclone",
+      "score": 0.0008946916513008905
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.0007861004121358595
+    },
+    {
+      "significant_text": "primary",
+      "score": 0.000783612250033147
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.0007491925719470053
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0007319932265494683
+    }
+  ],
+  "NTAP": [
+    {
+      "significant_text": "stock",
+      "score": 0.0026802834955627183
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0026616189197261816
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0019434566505598064
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0013289906134581746
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.001170546892907511
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0010396761730075085
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.001035894201839135
+    },
+    {
+      "significant_text": "michigan",
+      "score": 0.0009267122845912339
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0009011726636298845
+    },
+    {
+      "significant_text": "flooding",
+      "score": 0.0008149912441581076
+    }
+  ],
+  "NTES": [
+    {
+      "significant_text": "update",
+      "score": 0.00513601915607881
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.003258525143924002
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002847744226091569
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.001578886319191504
+    },
+    {
+      "significant_text": "hydroxychloroquine",
+      "score": 0.0014813802025950514
+    },
+    {
+      "significant_text": "laura",
+      "score": 0.0012953163298553478
+    },
+    {
+      "significant_text": "agents",
+      "score": 0.001180024070414172
+    },
+    {
+      "significant_text": "thursday",
+      "score": 0.0010984055797458314
+    },
+    {
+      "significant_text": "eu",
+      "score": 0.0010884376850964052
+    },
+    {
+      "significant_text": "cyclone",
+      "score": 0.0010849004108528049
+    }
+  ],
+  "NVDA": [
+    {
+      "significant_text": "woodward",
+      "score": 0.0017445992462925687
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0011484967120372908
+    },
+    {
+      "significant_text": "pfizer",
+      "score": 0.0008474606116093906
+    },
+    {
+      "significant_text": "australians",
+      "score": 0.0007967332397608434
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.0007948244690790602
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0007935532311986276
+    },
+    {
+      "significant_text": "oscars",
+      "score": 0.0007604873782649404
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0007475308556822505
+    },
+    {
+      "significant_text": "noble",
+      "score": 0.0007433433231390791
+    },
+    {
+      "significant_text": "acms",
+      "score": 0.0007374538569244525
+    }
+  ],
+  "NXPI": [
+    {
+      "significant_text": "update",
+      "score": 0.00525743679720616
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003826038898238145
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0026665894802954198
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0019917231906536603
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0016963222569856815
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0013032532501503638
+    },
+    {
+      "significant_text": "agents",
+      "score": 0.0013026624502084792
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0011297511049698143
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0010134279855826059
+    },
+    {
+      "significant_text": "quarterly",
+      "score": 0.0010069230273595793
+    }
+  ],
+  "ORLY": [
+    {
+      "significant_text": "update",
+      "score": 0.005998991991769422
+    },
+    {
+      "significant_text": "why",
+      "score": 0.004500925231763483
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003446217469409623
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0025597812286808877
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.002294945795425363
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0021905390847163572
+    },
+    {
+      "significant_text": "nkurunziza",
+      "score": 0.0021534767433922792
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0019262667548842693
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.0017015186923202746
+    },
+    {
+      "significant_text": "q1",
+      "score": 0.0016675873083197167
+    }
+  ],
+  "PAYX": [
+    {
+      "significant_text": "update",
+      "score": 0.00672596603610093
+    },
+    {
+      "significant_text": "why",
+      "score": 0.006366873108683189
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.00576562115740272
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0027111122999419813
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0024427642897258714
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0022674802149856028
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.002118778067550898
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.001833223381780681
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0018124817124047198
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.001752901065262271
+    }
+  ],
+  "PCAR": [
+    {
+      "significant_text": "update",
+      "score": 0.004866541171359237
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0029101451810717273
+    },
+    {
+      "significant_text": "why",
+      "score": 0.002828449813718933
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0027158189986797787
+    },
+    {
+      "significant_text": "kamala",
+      "score": 0.0026461522924997607
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0024477263975319044
+    },
+    {
+      "significant_text": "harris",
+      "score": 0.0022348850787897254
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0021301986538156594
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0020754832263233307
+    },
+    {
+      "significant_text": "nkurunziza",
+      "score": 0.001330750553815889
+    }
+  ],
+  "PEP": [
+    {
+      "significant_text": "daca",
+      "score": 0.002873327503793123
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0026821808015244715
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0023720468938675477
+    },
+    {
+      "significant_text": "pensacola",
+      "score": 0.0021910315451384495
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0021174759086660722
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002044271293767887
+    },
+    {
+      "significant_text": "michelle",
+      "score": 0.0018724224660091372
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0018605671007985367
+    },
+    {
+      "significant_text": "rosenstein",
+      "score": 0.0018235668775278963
+    },
+    {
+      "significant_text": "ryder",
+      "score": 0.001689991613709581
+    }
+  ],
+  "PYPL": [
+    {
+      "significant_text": "stock",
+      "score": 0.0023355820967535293
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.0022853242631815595
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0021709884301884235
+    },
+    {
+      "significant_text": "why",
+      "score": 0.00171779307417955
+    },
+    {
+      "significant_text": "australians",
+      "score": 0.0014620446468429987
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0012517748756461602
+    },
+    {
+      "significant_text": "mylan",
+      "score": 0.0009523233787639378
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0009084694479102437
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.000898508040456105
+    },
+    {
+      "significant_text": "hispanic",
+      "score": 0.000823005991917541
+    }
+  ],
+  "QCOM": [
+    {
+      "significant_text": "update",
+      "score": 0.004025534522947123
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0026596746846233622
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0017981469842404073
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0013390361315999135
+    },
+    {
+      "significant_text": "burr",
+      "score": 0.0012280026133959362
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.001205761980691435
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.001111247414295367
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0010339527532353594
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.001031918104001485
+    },
+    {
+      "significant_text": "mylan",
+      "score": 0.001018285249011932
+    }
+  ],
+  "REGN": [
+    {
+      "significant_text": "fed",
+      "score": 0.0016078520234041284
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0011308680814116475
+    },
+    {
+      "significant_text": "biden",
+      "score": 0.0009054775078407618
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0007923086063877108
+    },
+    {
+      "significant_text": "gop",
+      "score": 0.00070643038031899
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0006682641272478005
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0006620829506128717
+    },
+    {
+      "significant_text": "thursday",
+      "score": 0.0006055948774506982
+    },
+    {
+      "significant_text": "coachella",
+      "score": 0.0005890974460980549
+    },
+    {
+      "significant_text": "stagecoach",
+      "score": 0.0005717934134745685
+    }
+  ],
+  "ROST": [
+    {
+      "significant_text": "why",
+      "score": 0.0021845624074023837
+    },
+    {
+      "significant_text": "convention",
+      "score": 0.0019972801705866526
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0017502608564211567
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.0015907276176254708
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0015349960229280833
+    },
+    {
+      "significant_text": "update",
+      "score": 0.001467965896839611
+    },
+    {
+      "significant_text": "democrats",
+      "score": 0.0014482933420568228
+    },
+    {
+      "significant_text": "senate",
+      "score": 0.0014081986909626346
+    },
+    {
+      "significant_text": "democratic",
+      "score": 0.0014039310928605539
+    },
+    {
+      "significant_text": "bill",
+      "score": 0.0010717310327254222
+    }
+  ],
+  "SBUX": [
+    {
+      "significant_text": "fed",
+      "score": 0.002469318122725871
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0024058219125828394
+    },
+    {
+      "significant_text": "why",
+      "score": 0.001867923948541242
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0017563466732559514
+    },
+    {
+      "significant_text": "george",
+      "score": 0.001585756567913035
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0015796737400341886
+    },
+    {
+      "significant_text": "rayshard",
+      "score": 0.001477426782867194
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.0014313018052792479
+    },
+    {
+      "significant_text": "brooks",
+      "score": 0.001369731332747602
+    },
+    {
+      "significant_text": "bolton",
+      "score": 0.0013623970619868965
+    }
+  ],
+  "SIRI": [
+    {
+      "significant_text": "update",
+      "score": 0.005957822541922415
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0024328840882905356
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0021592498308755704
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.00202870066040584
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0018113284829048165
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0017064192561617286
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.0015217513335020183
+    },
+    {
+      "significant_text": "bubba",
+      "score": 0.0011768702178585593
+    },
+    {
+      "significant_text": "reopen",
+      "score": 0.0010908744322932883
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.0010519501354831619
+    }
+  ],
+  "SNPS": [
+    {
+      "significant_text": "reuters",
+      "score": 0.0029696284613848563
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0023464404283060187
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.002100915234965966
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0016212978139259206
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0013764211001904667
+    },
+    {
+      "significant_text": "thursday",
+      "score": 0.0012193709047138505
+    },
+    {
+      "significant_text": "mylan",
+      "score": 0.0011599189207942523
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0011411453071148053
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0011310487340133145
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0010825370678721699
+    }
+  ],
+  "SWKS": [
+    {
+      "significant_text": "update",
+      "score": 0.0026862881436684727
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0019450200834338056
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0017233872302984746
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0009391593077216961
+    },
+    {
+      "significant_text": "inspiring",
+      "score": 0.0007924610588947199
+    },
+    {
+      "significant_text": "thursday",
+      "score": 0.0007523813803606412
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0007387651809728126
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0006839968069232994
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0006768960470606927
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0006605295321175618
+    }
+  ],
+  "SYMC": [
+    {
+      "significant_text": "update",
+      "score": 0.005260975259352316
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003792289367845916
+    },
+    {
+      "significant_text": "why",
+      "score": 0.003783035208184075
+    },
+    {
+      "significant_text": "protests",
+      "score": 0.0027710174876680177
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.0024389822263824446
+    },
+    {
+      "significant_text": "george",
+      "score": 0.0015949202126473933
+    },
+    {
+      "significant_text": "woodward",
+      "score": 0.0015192723791274552
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0013905086891258793
+    },
+    {
+      "significant_text": "riots",
+      "score": 0.0013789429808568293
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0013514185365407422
+    }
+  ],
+  "TMUS": [
+    {
+      "significant_text": "update",
+      "score": 0.008173266109532208
+    },
+    {
+      "significant_text": "why",
+      "score": 0.004469272510553413
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002669745943427816
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.002423972010265043
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0023028744175863543
+    },
+    {
+      "significant_text": "romney",
+      "score": 0.001859832398949787
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.001622722196517734
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0014965441072436658
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.0014464131404340378
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0014223101073507437
+    }
+  ],
+  "TSLA": [
+    {
+      "significant_text": "stock",
+      "score": 0.002697569628712983
+    },
+    {
+      "significant_text": "why",
+      "score": 0.002248401211216344
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0015855652200349973
+    },
+    {
+      "significant_text": "hurricane",
+      "score": 0.001487610610485575
+    },
+    {
+      "significant_text": "kenosha",
+      "score": 0.0012935166865354053
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0010644073903873725
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.001000153498458066
+    },
+    {
+      "significant_text": "thursday",
+      "score": 0.000938739877643173
+    },
+    {
+      "significant_text": "laura",
+      "score": 0.0009011822526772783
+    },
+    {
+      "significant_text": "unrest",
+      "score": 0.000900695573461543
+    }
+  ],
+  "TTWO": [
+    {
+      "significant_text": "protests",
+      "score": 0.007814060456816143
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.00585673141844017
+    },
+    {
+      "significant_text": "george",
+      "score": 0.005388528396134236
+    },
+    {
+      "significant_text": "riots",
+      "score": 0.0024585259558578764
+    },
+    {
+      "significant_text": "floyd's",
+      "score": 0.002150525497618461
+    },
+    {
+      "significant_text": "unrest",
+      "score": 0.002100737169732262
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.0020619360145767507
+    },
+    {
+      "significant_text": "peaceful",
+      "score": 0.0020611206613727453
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.002001247310050262
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0015702020292605893
+    }
+  ],
+  "TXN": [
+    {
+      "significant_text": "update",
+      "score": 0.004687806275427783
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0027615863067854364
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.002712885527971911
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0022645942701338363
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0020882712247163146
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.001829734381574539
+    },
+    {
+      "significant_text": "gohmert",
+      "score": 0.001483155180649395
+    },
+    {
+      "significant_text": "quarter",
+      "score": 0.0014000297927177624
+    },
+    {
+      "significant_text": "burr",
+      "score": 0.0013851354870009628
+    },
+    {
+      "significant_text": "obamagate",
+      "score": 0.0012088545214222217
+    }
+  ],
+  "UAL": [
+    {
+      "significant_text": "update",
+      "score": 0.0035462977432114194
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0023892649531089853
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0017503915325727617
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0009797021844518737
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.000956415378455614
+    },
+    {
+      "significant_text": "quarter",
+      "score": 0.0008296327658593413
+    },
+    {
+      "significant_text": "kamala",
+      "score": 0.0007245946555742127
+    },
+    {
+      "significant_text": "convention",
+      "score": 0.0006916099795447731
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0006693745856162348
+    },
+    {
+      "significant_text": "democrats",
+      "score": 0.0006558895849485636
+    }
+  ],
+  "ULTA": [
+    {
+      "significant_text": "why",
+      "score": 0.002858285403456448
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.00219126310602667
+    },
+    {
+      "significant_text": "convention",
+      "score": 0.0019939273733331426
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0018351727307486755
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.0018009805230068988
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0014398305320324429
+    },
+    {
+      "significant_text": "democratic",
+      "score": 0.0012500891912987546
+    },
+    {
+      "significant_text": "democrats",
+      "score": 0.0012114969005984659
+    },
+    {
+      "significant_text": "obama",
+      "score": 0.0012056698872218593
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0011846446248090798
+    }
+  ],
+  "VRSK": [
+    {
+      "significant_text": "update",
+      "score": 0.009784933898761311
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0027687572127197734
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.002523894173728482
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0024197672907622105
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.00236201597145979
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0023349869942869894
+    },
+    {
+      "significant_text": "april",
+      "score": 0.002330954581918831
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.002229140623641633
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0019574270177080176
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.001850039635895076
+    }
+  ],
+  "VRSN": [
+    {
+      "significant_text": "why",
+      "score": 0.005105886686467762
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.003845266152880874
+    },
+    {
+      "significant_text": "update",
+      "score": 0.002171904537865195
+    },
+    {
+      "significant_text": "tuesday",
+      "score": 0.002130417532789726
+    },
+    {
+      "significant_text": "jumped",
+      "score": 0.0016525308472352112
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.0016358989845515928
+    },
+    {
+      "significant_text": "peaceful",
+      "score": 0.0014983520266741539
+    },
+    {
+      "significant_text": "isaias",
+      "score": 0.0014787618200252724
+    },
+    {
+      "significant_text": "dc",
+      "score": 0.0013606225381591133
+    },
+    {
+      "significant_text": "cyclone",
+      "score": 0.001335565756742808
+    }
+  ],
+  "VRTX": [
+    {
+      "significant_text": "stock",
+      "score": 0.0034799569067151003
+    },
+    {
+      "significant_text": "floyd",
+      "score": 0.002939970779883944
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0024843495279139867
+    },
+    {
+      "significant_text": "george",
+      "score": 0.002429292357247094
+    },
+    {
+      "significant_text": "protests",
+      "score": 0.0022935155589027642
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0012783829371220809
+    },
+    {
+      "significant_text": "mattis",
+      "score": 0.0012695448023259353
+    },
+    {
+      "significant_text": "peaceful",
+      "score": 0.001234466090392078
+    },
+    {
+      "significant_text": "tiananmen",
+      "score": 0.0010721886131469104
+    },
+    {
+      "significant_text": "violence",
+      "score": 0.0010668459533487897
+    }
+  ],
+  "WBA": [
+    {
+      "significant_text": "update",
+      "score": 0.005375975916237959
+    },
+    {
+      "significant_text": "convention",
+      "score": 0.0025974197163824027
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0025792288199952365
+    },
+    {
+      "significant_text": "why",
+      "score": 0.00231003336275636
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.002060045251020559
+    },
+    {
+      "significant_text": "laura",
+      "score": 0.0014775041435138947
+    },
+    {
+      "significant_text": "democrats",
+      "score": 0.0014655866473315812
+    },
+    {
+      "significant_text": "dnc",
+      "score": 0.0014581603135280015
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0014147903441678236
+    },
+    {
+      "significant_text": "reopen",
+      "score": 0.0013130000079410922
+    }
+  ],
+  "WDAY": [
+    {
+      "significant_text": "stock",
+      "score": 0.0020623121495794857
+    },
+    {
+      "significant_text": "federal",
+      "score": 0.0017405821767818288
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0016786583602594596
+    },
+    {
+      "significant_text": "agents",
+      "score": 0.0016082106298695345
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0015261218256871693
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0012524822744383207
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0012158036783980611
+    },
+    {
+      "significant_text": "debate",
+      "score": 0.0008789729288509475
+    },
+    {
+      "significant_text": "portland",
+      "score": 0.0008509251151945426
+    },
+    {
+      "significant_text": "among",
+      "score": 0.0008102172660300173
+    }
+  ],
+  "WDC": [
+    {
+      "significant_text": "why",
+      "score": 0.0017119523888402763
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0014296887988906504
+    },
+    {
+      "significant_text": "sally",
+      "score": 0.0013647064360024198
+    },
+    {
+      "significant_text": "update",
+      "score": 0.001187050726380576
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.0010836327660774345
+    },
+    {
+      "significant_text": "kamala",
+      "score": 0.00107041844589816
+    },
+    {
+      "significant_text": "barr",
+      "score": 0.0009165940261074333
+    },
+    {
+      "significant_text": "reform",
+      "score": 0.0008932094885781823
+    },
+    {
+      "significant_text": "harris",
+      "score": 0.0008105605564538235
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0007974159400246884
+    }
+  ],
+  "WLTW": [
+    {
+      "significant_text": "update",
+      "score": 0.00868496555356262
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0050478783477432955
+    },
+    {
+      "significant_text": "isaias",
+      "score": 0.004895553770666485
+    },
+    {
+      "significant_text": "why",
+      "score": 0.004478507201444771
+    },
+    {
+      "significant_text": "beirut",
+      "score": 0.0028312688902559628
+    },
+    {
+      "significant_text": "primary",
+      "score": 0.0026643958878769013
+    },
+    {
+      "significant_text": "crossfit",
+      "score": 0.002650906148403771
+    },
+    {
+      "significant_text": "daca",
+      "score": 0.0024545773918725282
+    },
+    {
+      "significant_text": "michigan",
+      "score": 0.0022244482782320624
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.0021848797591575916
+    }
+  ],
+  "WYNN": [
+    {
+      "significant_text": "stock",
+      "score": 0.0016750155362865394
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0011161680753862346
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0009045885203387018
+    },
+    {
+      "significant_text": "202",
+      "score": 0.0008127712709663798
+    },
+    {
+      "significant_text": "reform",
+      "score": 0.000685313636961516
+    },
+    {
+      "significant_text": "democrats",
+      "score": 0.0006259634653993042
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0006113385164393591
+    },
+    {
+      "significant_text": "quarter",
+      "score": 0.0005457180937542188
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0005455941547178007
+    },
+    {
+      "significant_text": "michigan",
+      "score": 0.0005245725837229096
+    }
+  ],
+  "XEL": [
+    {
+      "significant_text": "update",
+      "score": 0.0062822305563999346
+    },
+    {
+      "significant_text": "april",
+      "score": 0.0031482461877864144
+    },
+    {
+      "significant_text": "why",
+      "score": 0.0026812158449174037
+    },
+    {
+      "significant_text": "republican",
+      "score": 0.0023159636556842893
+    },
+    {
+      "significant_text": "laura",
+      "score": 0.001985752675203912
+    },
+    {
+      "significant_text": "stock",
+      "score": 0.0019050916318241562
+    },
+    {
+      "significant_text": "wisconsin",
+      "score": 0.0018477558104174699
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0017168204519535455
+    },
+    {
+      "significant_text": "fed",
+      "score": 0.001592564764272192
+    },
+    {
+      "significant_text": "vmas",
+      "score": 0.0015408716575597123
+    }
+  ],
+  "XLNX": [
+    {
+      "significant_text": "stock",
+      "score": 0.003969423077146239
+    },
+    {
+      "significant_text": "why",
+      "score": 0.003309328532305262
+    },
+    {
+      "significant_text": "update",
+      "score": 0.0019564345928917573
+    },
+    {
+      "significant_text": "fauci",
+      "score": 0.0017488649167861367
+    },
+    {
+      "significant_text": "brief",
+      "score": 0.0017106893738820133
+    },
+    {
+      "significant_text": "reopening",
+      "score": 0.001252833529066971
+    },
+    {
+      "significant_text": "australians",
+      "score": 0.0010790582013304928
+    },
+    {
+      "significant_text": "revenue",
+      "score": 0.0010673923828020445
+    },
+    {
+      "significant_text": "wednesday",
+      "score": 0.0010259958576516975
+    },
+    {
+      "significant_text": "teixeira",
+      "score": 0.0009525470599761668
+    }
+  ]
+}

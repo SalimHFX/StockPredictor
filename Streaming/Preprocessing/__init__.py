@@ -16,4 +16,6 @@ class PreprocessingManager():
         # Filter stock prices : restrict stocks to a given time interval
         stock_prices = stock_prices_preprocessor.filter_stock_prices_by_date(stock_prices,time_interval)
 
+        print("PreprocessingManager.preprocess_stock_prices : PREPROCESSING DONE")
+
         return stock_prices

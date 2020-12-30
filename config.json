@@ -4,8 +4,8 @@
       "corpus_per_company_filtering": "None",
       "source": "All",
       "feed_filtering": "None",
-      "train_timeframe_window": "J-1",
-      "effect_timeframe": "J+1",
+      "train_timeframe_window": "D-1",
+      "effect_timeframe": "D+1",
       "train_boundaries": ["2020-05-01","2020-09-30"],
       "test_boundaries": ["2020-10-01","2020-10-25"]
     },

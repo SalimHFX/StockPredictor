@@ -1,6 +1,8 @@
 from Streaming.Loading import DataLoadingManager
 from Streaming.Preprocessing import PreprocessingManager
 from Streaming.Extraction import DataExtractionManager
+from Analysis.ModelCreation import ModelCreationManager
+import json
 
 # Load the configuration used for the pipeline
 config_file = DataLoadingManager.load_data("config.json")
@@ -24,22 +26,35 @@ EVALUATION_METRICS = config_file['baseline']['evaluation']['metrics']
 
 # Load the data files (news headlines and stock price information)
 #stock_prices = DataLoadingManager.load_data("~/Coding/Masters Project/Dataset/
-stock_prices = DataLoadingManager.load_data("/home/salim/Coding/Masters Project/Dataset/multiple_companies_stock_prices_sample.json")
+stock_prices = DataLoadingManager.load_data("/home/salim/Coding/Masters Project/Dataset/stock_prices/stock_prices_20200501_20200930.json")
+#stock_prices = DataLoadingManager.load_data("/home/salim/Coding/Masters Project/Dataset/multiple_companies_stock_prices_sample.json")
 #articles = DataLoadingManager.load_data("~/Coding/Masters Project/Dataset/articles_20201015_20201026.json")
+
 
 # Preprocess the loaded data
 stock_prices = PreprocessingManager.preprocess_stock_prices(stock_prices, TRAIN_BOUNDARIES)
 print(stock_prices)
 # TODO : think of a way to use a different workflow if the stock_prices/articles have already been preprocessed
-# TODO : articles preprocessing
 
 # Extract the data from the data files (relevant days from stock prices, and titles from news headlines corresponding to those relevant days)
-stock_movement_dates = DataExtractionManager.extract_data(stock_prices,'J-30', 'DOWNWARD', 0.01)
-print(stock_movement_dates)
+stock_movement_dates = DataExtractionManager.extract_data(stock_prices,'D-1', 'DOWNWARD', 0.01)
+print("DataExtractionManager.extract_data : EXTRACTION DONE")
+#print(stock_movement_dates)
 
-# Create the model
+# Create & Train the model (launch ES request, store the significant-text per company results in a data structure inside the model)
+stock_prediction_model = ModelCreationManager.create_model(
+    es_port=9200,timeout=30,company_relevant_days=stock_movement_dates,significant_text_field="title",max_words_per_company=10)
+print("ModelCreationManager.create_model : MODEL CREATION AND TRAINING DONE")
 
-# Train the model (launch ES request, store the significant-text per company results in a data structure inside the model)
+'''
+# Save the model in a json file (the significant-texts per company dictionary)
+with open('model_v0_relevant_days_20200501_20200930.json', 'w') as f:
+    json.dump(stock_prediction_model.companyRelevantDays, f)
+
+with open('model_v0_20200501_20200930.json', 'w') as f:
+    json.dump(stock_prediction_model.companySignificantTexts, f)
+print("runner : MODEL SAVING DONE")
+'''
 
 # Predict
 
