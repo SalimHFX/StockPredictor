@@ -1,21 +1,31 @@
 {
   "baseline":{
-    "dataset": {
+    "articles_dataset": {
       "corpus_per_company_filtering": "None",
       "source": "All",
       "feed_filtering": "None",
       "train_timeframe_window": "D-1",
       "effect_timeframe": "D+1",
+      "date_format": "%Y-%m-%d",
       "train_boundaries": ["2020-05-01","2020-09-30"],
-      "test_boundaries": ["2020-10-01","2020-10-25"]
+      "test_boundaries": ["2020-10-01","2020-10-25"],
+      "elastic_train_index": "articles_20200501_20200930_no_duplicate_title",
+      "elastic_test_index": "articles_20201001_20201025_no_duplicate_title"
+    },
+    "stock_prices_dataset": {
+      "close_price_movement_threshold": 0.01,
+      "close_price_movement_direction": "DOWNWARD"
     },
     "analysis": {
       "type": {
         "name": "ES Significant-text",
+        "connexion_port": 9200,
+        "connexion_timeout": 30,
         "fields": "title",
-        "nb_words_per_day": "YET TO BE DETERMINED",
-        "significant_text_aggregation_metric": "YET TO BE DETERMINED",
-        "comparison_metric": "Jaccard"
+        "max_words_per_company": 10,
+        "max_words_per_day": 30,
+        "comparison_metric": "Jaccard",
+        "comparison_metric_threshold": 0.3
       }
     },
     "evaluation": {

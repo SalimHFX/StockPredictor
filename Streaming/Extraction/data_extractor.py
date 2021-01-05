@@ -1,6 +1,6 @@
 import re
-from datetime import datetime
-#to be deleter later, just for testing
+from datetime import datetime, timedelta
+#to be deleted later, just for testing
 from Streaming.Loading import DataLoadingManager
 
 STOCK_MOVEMENT = {'UPWARD','DOWNWARD'}
@@ -27,7 +27,7 @@ class DataExtractor:
         Relevant day format <Dictionary> :
         { 'price_loss_date': 'YYYY-MM-DD', 'initial_date': 'YYYY-MM-DD'}
     '''
-    def identify_relevant_days(self,stock_prices, train_timeframe_window, stock_movement, close_price_movement_threshold):
+    def identify_relevant_days(self,stock_prices, train_timeframe_window, stock_movement, close_price_movement_threshold, date_format):
         if stock_movement not in STOCK_MOVEMENT:
             raise ValueError("identify_relevant_days: stock_movement must be one of %s." % STOCK_MOVEMENT)
 
@@ -53,7 +53,6 @@ class DataExtractor:
                 # Verify that the comparison is done on the same company
                 if current_company == previous_company:
                     # Get dates for comparison
-                    date_format = '%Y-%m-%d'
                     current_stock_date = datetime.strptime(stock_prices[i]['event']['time'],date_format)
                     previous_stock_date = datetime.strptime(stock_prices[i-cpt]['event']['time'],date_format)
                     time_distance = (current_stock_date - previous_stock_date).days
@@ -84,7 +83,28 @@ class DataExtractor:
         return stock_movement_dates
 
 
-
+    # Convert the company_relevant_days dictionary
+    # { "company_i_name": [ {"price_loss_date":'XXXX-XX-XX',"initial_date":'XXXX-XX-XX'},
+    #                       {"price_loss_date":'XXXX-XX-XX',"initial_date":'XXXX-XX-XX'}
+    #                     ],
+    #   ....
+    #  "company_n_name": [ ... ]
+    # }
+    # to a dictionary with only the company names and the (price_loss_date - train_timeframe_window) :
+    # { "company_i_name": [ 'YYYY-YY-YY','YYYY-YY-YY',....],
+    #   "company_n_name: [..]
+    # }
+    def convert_company_dates(self, company_relevant_days, train_timeframe_window, date_format):
+        input_dates_for_significant_text = {}
+        train_timeframe_window = int(re.search(r'\d+', train_timeframe_window).group())
+        for company,dates in company_relevant_days.items():
+            input_dates_for_significant_text[company] = []
+            for date in dates:
+                # We append to the company dates the (price_loss_date - train_timeframe_window)
+                # (for example that would be the day before the price_loss_date if train_timeframe_window = D-1)
+                significant_text_date = str((datetime.strptime(date['price_loss_date'],date_format) - timedelta(days=train_timeframe_window)).strftime(date_format))
+                input_dates_for_significant_text[company].append(significant_text_date)
+        return input_dates_for_significant_text
 
     '''
     Description :
@@ -106,7 +126,7 @@ class DataExtractor:
         Relevant day format <Dictionary> :
         { 'price_loss_date': 'YYYY-MM-DD', 'initial_date': 'YYYY-MM-DD'}
     '''
-    def identify_relevant_days_old_version(self,stock_prices, train_timeframe_window, stock_movement, close_price_movement_threshold):
+    def identify_relevant_days_old_version(self,stock_prices, train_timeframe_window, stock_movement, close_price_movement_threshold, date_format):
         if stock_movement not in STOCK_MOVEMENT:
             raise ValueError("identify_relevant_days: stock_movement must be one of %s." % STOCK_MOVEMENT)
 
@@ -130,7 +150,6 @@ class DataExtractor:
                 # Verify that the comparison is done on the same company
                 if current_company == previous_company:
                     # Get dates for comparison
-                    date_format = '%Y-%m-%d'
                     current_stock_date = datetime.strptime(stock_prices[i]['event']['time'],date_format)
                     previous_stock_date = datetime.strptime(stock_prices[i-cpt]['event']['time'],date_format)
                     time_distance = (current_stock_date - previous_stock_date).days
@@ -168,6 +187,7 @@ if __name__ == '__main__':
     #stock_prices = DataLoadingManager.load_data("/home/salim/Coding/Masters Project/Dataset/stock_prices/stock_prices_20200501_20200930.json")
     stock_prices = DataLoadingManager.load_data("/home/salim/Coding/Masters Project/Dataset/stock_prices_testing/stock_prices_sample_duplicate.json")
     data_extractor = DataExtractor()
-    stock_movement_dates = data_extractor.identify_relevant_days(stock_prices,'D-1', 'DOWNWARD', 0.01)
+    date_format = '%Y-%m-%d'
+    stock_movement_dates = data_extractor.identify_relevant_days(stock_prices,'D-1', 'DOWNWARD', 0.01, date_format)
     print(stock_movement_dates)
 
