@@ -22,6 +22,8 @@ ELASTIC_TRAIN_INDEX = config_file['baseline']['articles_dataset']['elastic_train
 ELASTIC_TEST_INDEX = config_file['baseline']['articles_dataset']['elastic_test_index']
 TRAIN_BOUNDARIES = config_file['baseline']['articles_dataset']['train_boundaries']
 TEST_BOUNDARIES = config_file['baseline']['articles_dataset']['test_boundaries']
+ELASTIC_TRAIN_INDEX_SIZE = config_file['baseline']['articles_dataset']['elastic_train_index_size']
+ELASTIC_TRAIN_INDEX_FOREGROUND_TO_BACKGROUND_THRESHOLD = config_file['baseline']['articles_dataset']['elastic_train_index_foreground_to_background_threshold']
 
 # Config constants : Stock prices dataset related
 CLOSE_PRICE_MOVEMENT_THRESHOLD = config_file['baseline']['stock_prices_dataset']['close_price_movement_threshold']
@@ -45,11 +47,11 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--stock-prices-path',type=str,default="/home/salim/Coding/Masters Project/Dataset/stock_prices/stock_prices_20201023.json")
 parser.add_argument('--preprocessed-stock-prices',type=bool,default=False)
 parser.add_argument('--load-model-from-json',type=bool,default=False)
-parser.add_argument('--model-path',type=str,default="/home/salim/Coding/Masters Project/StockPredictor/Saved Models/model_v1_20200501_20200930.json")
+parser.add_argument('--model-path',type=str,default="/home/salim/Coding/Masters Project/StockPredictor/Saved Models/model_v4_20200501_20200930.json")
 parser.add_argument('--save-model',type=bool,default=False)
 parser.add_argument('--saved-model-path',type=str,default='/home/salim/Coding/Masters Project/StockPredictor/Saved Models/')
 parser.add_argument('--load-testset-from-json',type=bool,default=False)
-parser.add_argument('--testset-path',type=str,default="/home/salim/Coding/Masters Project/StockPredictor/Analysis/TestSetCreation/testset_significant_texts_per_day_v1_20201001_20201025.json")
+parser.add_argument('--testset-path',type=str,default="/home/salim/Coding/Masters Project/StockPredictor/Analysis/TestSetCreation/testset_significant_texts_per_day_v2_20201001_20201025.json")
 parser.add_argument('--save-testset', type=bool, default=False)
 parser.add_argument('--saved-testset-path', type=str, default='/home/salim/Coding/Masters Project/StockPredictor/Analysis/TestSetCreation/')
 args = parser.parse_args()
@@ -76,44 +78,50 @@ if(args.load_model_from_json):
     # Load model
     json_model = DataLoadingManager.load_data(args.model_path)
     # Clean model
-    cleaned_model = SignificantTextsCleaner.clean_model(json_model)
+    cleaned_model = SignificantTextsCleaner.clean_model_from_json(json_model)
     stock_prediction_model = ModelCreationManager.from_json(cleaned_model)
-    print("Model Loading DONE")
+    print("runner.py : Model Loading DONE")
 else:
-    stock_prediction_model = ModelCreationManager.train_model(es_port=CONNEXION_PORT,es_index=ELASTIC_TRAIN_INDEX,
-                                                              timeout=CONNEXION_TIMEOUT,company_relevant_days=train_stock_movement_dates,
-                                                              date_format=DATE_FORMAT, significant_text_field=ANALYSIS_FIELDS,
+    # Create a new model
+    stock_prediction_model = ModelCreationManager.train_model(es_port=CONNEXION_PORT, timeout=CONNEXION_TIMEOUT,
+                                                              es_index=ELASTIC_TRAIN_INDEX,es_index_size = ELASTIC_TRAIN_INDEX_SIZE,
+                                                              foreground_to_background_index_threshold = ELASTIC_TRAIN_INDEX_FOREGROUND_TO_BACKGROUND_THRESHOLD,
+                                                              company_relevant_days=train_stock_movement_dates,
+                                                              significant_text_field=ANALYSIS_FIELDS,
                                                               max_words_per_company=MAX_WORDS_PER_COMPANY)
+    # Clean the model
+    stock_prediction_model = SignificantTextsCleaner.clean_model(stock_prediction_model)
     print("ModelCreationManager.create_model : MODEL CREATION AND TRAINING DONE")
 
 # Save the model in a json file (the significant-texts per company dictionary)
 if(args.save_model):
-    with open(args.saved_model_path + 'model_v2_relevant_days_20200501_20200930.json', 'w') as f:
+    with open(args.saved_model_path + 'model_v4_relevant_days_20200501_20200930.json', 'w') as f:
         json.dump(stock_prediction_model.companyRelevantDays, f)
 
-    with open(args.saved_model_path + 'model_v2_20200501_20200930.json', 'w') as f:
+    with open(args.saved_model_path + 'model_v4_20200501_20200930.json', 'w') as f:
         json.dump(stock_prediction_model.companySignificantTexts, f)
-    print("runner : MODEL SAVING DONE")
+    print("runner.py : MODEL SAVING DONE")
 
 
 # Create the test set
 if(args.load_testset_from_json):
     testset = DataLoadingManager.load_data(args.testset_path)
     # Clean testset
-    cleaned_testset = SignificantTextsCleaner.clean_model(testset)
-    print("Testset Loading DONE")
+    cleaned_testset = SignificantTextsCleaner.clean_model_from_json(testset)
+    print("runner.py : Testset Loading DONE")
 else:
     testset = TestSetManager.create_testset_significant_texts(es_port=CONNEXION_PORT,es_index=ELASTIC_TEST_INDEX,timeout=CONNEXION_TIMEOUT,
-                                                                                    field=ANALYSIS_FIELDS,max_nb_words=MAX_WORDS_PER_DAY,test_boundaries=TEST_BOUNDARIES,
-                                                                                    date_format=DATE_FORMAT)
+                                                              field=ANALYSIS_FIELDS,max_nb_words=MAX_WORDS_PER_DAY,test_boundaries=TEST_BOUNDARIES,
+                                                              date_format=DATE_FORMAT)
     # Clean testset
-    cleaned_testset = SignificantTextsCleaner.clean_model(testset)
+    cleaned_testset = SignificantTextsCleaner.clean_model_from_json(testset)
+    print("runner.py : Testset Creation DONE")
 
 # Save the testset in a json file (the significant-texts per date dictionary)
 if(args.save_testset):
-    with open(args.saved_testset_path + 'testset_significant_texts_per_day_v2_20201001_20201025.json', 'w') as f:
+    with open(args.saved_testset_path + 'testset_significant_texts_per_day_v3_20201001_20201025.json', 'w') as f:
         json.dump(cleaned_testset, f)
-    print("runner : TESTSET SAVING DONE")
+    print("runner.py : TESTSET SAVING DONE")
 
 # Generate y_true for the test set
 stock_prices = DataLoadingManager.load_data(args.stock_prices_path)
@@ -134,9 +142,9 @@ mean_accuracy, mean_precision, mean_recall = ModelEvaluationManager.evaluate_mod
 #print('mean_accuracy : ',mean_accuracy)
 #print('mean_precision : ',mean_precision)
 #print('mean_recall : ',mean_recall)
-print('accuracies : ',mean_accuracy)
-print('precisions : ',mean_precision)
-print('recalls : ',mean_recall)
+print('runner.py : accuracies : ',mean_accuracy)
+print('runner.py : precisions : ',mean_precision)
+print('runner.py : recalls : ',mean_recall)
 
 # Fine-tune the model
 

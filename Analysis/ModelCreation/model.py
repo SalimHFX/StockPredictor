@@ -4,7 +4,7 @@ import json
 
 class StockPredictionModel():
 
-    def __init__(self, company_relevant_days = None):
+    def __init__(self, company_significant_texts = None, company_relevant_days = None):
         # Dictionary containing for each company its relevant days (a relevant day is a day in which a stock movement has occured)
         # companyRelevantDays =  { "company_i_name": [ relevant_date_1 ,...., relevant_date_n],
         #                           .....
@@ -26,7 +26,10 @@ class StockPredictionModel():
         #                                   .....
         #                              "company_n_name: [ significant_text_1, ..., significant_text_n ]
         #                             }
-        self.companySignificantTexts = {}
+        if company_significant_texts is None:
+            self.companySignificantTexts = {}
+        else:
+            self.companySignificantTexts = company_significant_texts
 
     @classmethod
     def from_json(cls,significant_texts_per_company_json_file):
@@ -35,12 +38,29 @@ class StockPredictionModel():
         return stock_prediction_model
 
 
-    def set_companySignificantTexts(self, es_port, es_index, timeout, significant_text_field, max_words_per_company):
-        input_dates_for_significant_text = {}
+    def set_companySignificantTexts(self, es_port, timeout, es_index, es_index_size, foreground_to_background_index_threshold, significant_text_field, max_words_per_company):
         for company in self.companyRelevantDays:
-            # Get the elastic search significant text for the relevant days of one company
-            self.companySignificantTexts[company] = ElasticSearchUtils.get_es_significant_texts_by_dates(
-                es_port,es_index, timeout,self.companyRelevantDays[company],significant_text_field, max_words_per_company)
+            # Verify that the foregroundset size is not close to the backgroundset (that makes the significant-text's quality bad)
+            # TODO : move MAX_NB_ARTICLES_PER_DAY to the config file
+            MAX_NB_ARTICLES_PER_DAY = 3000
+            foreground_set_size = len(self.companyRelevantDays[company]) * MAX_NB_ARTICLES_PER_DAY
+            foreground_to_background_proportion = foreground_set_size / es_index_size
+
+            # If the foregroundset size is small enough, we make the request without a sampler
+            if foreground_to_background_proportion < foreground_to_background_index_threshold:
+                # Get the elastic search significant text for the relevant days of one company
+                self.companySignificantTexts[company] = ElasticSearchUtils.get_es_significant_texts_by_dates(
+                    es_port=es_port,es_index=es_index, timeout=timeout,articles_dates=self.companyRelevantDays[company],
+                    field=significant_text_field, max_nb_words=max_words_per_company)
+
+            # If the foregroundset size is too big, we make the request with a sampler
+            else:
+                # We make the ES request with a sampler
+                # Get the elastic search significant text for the relevant days of one company
+                sample_size = es_index_size * foreground_to_background_index_threshold
+                self.companySignificantTexts[company] = ElasticSearchUtils.get_es_significant_texts_by_dates_with_sampler(
+                    es_port=es_port,es_index=es_index, timeout=timeout,articles_dates=self.companyRelevantDays[company],
+                    field=significant_text_field, max_nb_words=max_words_per_company, sample_size=sample_size)
 
     def predict_stock_movement(self, testset_significant_texts_per_day, similarity_threshold):
         # For each day in the test set, we compare the significant-texts to every company's list of significant-texts through a Jaccard Similarity operation.

@@ -10,7 +10,9 @@
       "train_boundaries": ["2020-05-01","2020-09-30"],
       "test_boundaries": ["2020-10-01","2020-10-25"],
       "elastic_train_index": "articles_20200501_20200930_no_duplicate_title",
-      "elastic_test_index": "articles_20201001_20201025_no_duplicate_title"
+      "elastic_test_index": "articles_20201001_20201025_no_duplicate_title",
+      "elastic_train_index_size": 300000,
+      "elastic_train_index_foreground_to_background_threshold": 0.2
     },
     "stock_prices_dataset": {
       "close_price_movement_threshold": 0.01,
@@ -22,7 +24,7 @@
         "connexion_port": 9200,
         "connexion_timeout": 30,
         "fields": "title",
-        "max_words_per_company": 10,
+        "max_words_per_company": 30,
         "max_words_per_day": 30,
         "comparison_metric": "Jaccard",
         "comparison_metric_threshold": 0.3

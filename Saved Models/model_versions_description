@@ -1,0 +1,7 @@
+v0 : significant texts + scores
+-> from v1 on, no scores
+v1 : significant texts
+v2 : significant texts + spaCy cleaning (lemmatizing + stopword/fully-numeric-words removal)
+v3 : significant texts + cleaning + 'exclude' in ES (days of the week, months, daytime, + two specific words that were systematic in v2 model : stock, update)
+     + sampling the foregroundset if it exceeds 20% of the backgroundset size
+v4 : v3 + max_words_per_company = 30 au lieu de 10

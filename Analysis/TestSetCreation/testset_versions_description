@@ -1,0 +1,4 @@
+v0 : significant texts + scores
+-> from v1 on, no scores
+v1 : significant texts
+v2 : significant texts + spaCy cleaning (lemmatizing + stopword/fully-numeric-words removal)
