@@ -1,6 +1,7 @@
 import spacy
 from spacy.tokens import Doc
 from Streaming.Loading import DataLoadingManager
+from Analysis.CorrelationHypothesis.day_by_day_model import DayByDayStockPredictionModel
 from Analysis.ModelCreation.model import StockPredictionModel
 
 class SignificantTextsCleaner():
@@ -52,9 +53,63 @@ class SignificantTextsCleaner():
 
         return cleaned_json_model
 
+
+
+    @staticmethod
+    # Lemmatize + Del stopwords/digits(int/float)
+    def clean_day_by_day_model(model:DayByDayStockPredictionModel):
+        cleaned_day_by_day_model = DayByDayStockPredictionModel()
+
+        nlp = spacy.load("en_core_web_sm")
+        for company in model.companySignificantTexts:
+            cleaned_day_by_day_model.companySignificantTexts[company] = {}
+            for date in model.companySignificantTexts[company]:
+                words = model.companySignificantTexts[company][date]
+                cleaned_words = []
+                doc = Doc(nlp.vocab, words=words)
+
+                [cleaned_words.append(word.lemma_) for word in doc if not word.is_stop and not SignificantTextsCleaner.is_number(str(word))]
+                cleaned_day_by_day_model.companySignificantTexts[company][date] = cleaned_words
+
+                #print("TEXT - LEMMA - POS - TAG - DEP - SHAPE - IS_ALPHA - IS_STOP")
+                #print('-',token.text,'-', token.lemma_,'-', token.pos_,'-', token.tag_,'-', token.dep_,'-',token.shape_,'-', token.is_alpha,'-', token.is_stop)
+
+                # Stop fed from being lemmatized as feed
+                # apostrophes, points or numbers inside words make the word categorized as not alpha
+
+        return cleaned_day_by_day_model
+
+    @staticmethod
+    # Lemmatize + Del stopwords/digits(int/float)
+    def clean_day_by_day_model_from_json(json_model):
+        cleaned_day_by_day_model = {}
+
+        nlp = spacy.load("en_core_web_sm")
+        for company in json_model:
+            cleaned_day_by_day_model[company] = {}
+            for date in json_model[company]:
+                words = json_model[company][date]
+                cleaned_words = []
+                doc = Doc(nlp.vocab, words=words)
+
+                [cleaned_words.append(word.lemma_) for word in doc if not word.is_stop and not SignificantTextsCleaner.is_number(str(word))]
+                cleaned_day_by_day_model[company][date] = cleaned_words
+
+                #print("TEXT - LEMMA - POS - TAG - DEP - SHAPE - IS_ALPHA - IS_STOP")
+                #print('-',token.text,'-', token.lemma_,'-', token.pos_,'-', token.tag_,'-', token.dep_,'-',token.shape_,'-', token.is_alpha,'-', token.is_stop)
+
+                # Stop fed from being lemmatized as feed
+                # apostrophes, points or numbers inside words make the word categorized as not alpha
+
+        return cleaned_day_by_day_model
+
     @staticmethod
     def is_number(s):
         return s.replace('.','',1).replace(',','',1).isdigit()
+
+
+
+
 
 
 

@@ -38,6 +38,7 @@ class StockPredictionModel():
         return stock_prediction_model
 
 
+    # Launches one elastic search significant-text query per company (for each company, the query has all the company's the relevant dates)
     def set_companySignificantTexts(self, es_port, timeout, es_index, es_index_size, foreground_to_background_index_threshold, significant_text_field, max_words_per_company):
         for company in self.companyRelevantDays:
             # Verify that the foregroundset size is not close to the backgroundset (that makes the significant-text's quality bad)
